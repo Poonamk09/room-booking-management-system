@@ -1,0 +1,11 @@
+config/database.php
+.env
+*.log
+.DS_Store
+Thumbs.db
+config/database.php
+admin/reset_password.php
+.env
+*.log
+.DS_Store
+Thumbs.db
