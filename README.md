@@ -1,7 +1,7 @@
 ﻿# Room Booking Management System
 
 ## Project Overview
-A web-based Room Booking Management System developed using PHP and MySQL. Users can register, log in, view rooms, book rooms, select food items and manage their bookings.
+A web-based Room Booking Management System developed using PHP and MySQL. It allows users to register, log in, view available rooms, book rooms, select food items, make demo payments, and manage their bookings.
 
 ## Technologies Used
 - HTML
@@ -10,7 +10,7 @@ A web-based Room Booking Management System developed using PHP and MySQL. Users 
 - PHP
 - MySQL
 - XAMPP
-- VS Code
+- Visual Studio Code
 
 ## Features
 
@@ -19,7 +19,7 @@ A web-based Room Booking Management System developed using PHP and MySQL. Users 
 - View Available Rooms
 - Room Booking
 - Food Item Selection
-- Payment Demo
+- Payment Demonstration
 - Booking Confirmation
 - View My Bookings
 - Cancel Booking
@@ -33,20 +33,49 @@ A web-based Room Booking Management System developed using PHP and MySQL. Users 
 - Manage Payments
 - Manage Food Items
 
+## Project Structure
+```text
+room_booking/
+│
+├── admin/
+├── config/
+├── css/
+├── database/
+│   └── room_booking.sql
+├── images/
+├── includes/
+├── screenshots/
+├── index.php
+├── rooms.php
+├── booking.php
+├── payment.php
+├── login.php
+├── register.php
+└── README.md
+```
+
 ## Installation Steps
+
 1. Install XAMPP.
 2. Copy the project folder into `C:\xampp\htdocs\`.
-3. Start Apache and MySQL.
-4. Create a database named `room_booking` in phpMyAdmin.
-5. Import the database SQL file, if available.
-6. Configure `config/database.php` with your local database credentials.
-7. Open `http://localhost/room_booking/` in your browser.
+3. Start Apache and MySQL from XAMPP Control Panel.
+4. Open phpMyAdmin.
+5. Create a database named `room_booking`.
+6. Select the database and click on Import.
+7. Choose `database/room_booking.sql` and click Import/Go.
+8. Configure your local database credentials in `config/database.php`.
+9. Open the following URL in your browser:
+
+   `http://localhost/room_booking/`
+
+## Screenshots
+Project screenshots are available in the `screenshots/` folder.
 
 ## Payment Information
 This project contains a payment demonstration feature. It does not use a real payment gateway.
 
 ## Developer
-Poonam Kumbhar
+**Poonam Kumbhar**
 
 B.Tech Computer Science and Engineering
 
